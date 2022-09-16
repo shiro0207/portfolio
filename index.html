@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"><!--charset: character encoding capable of encoding all characters on the web  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
+        <title>个人作品集©copyright 2022</title>   
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <style>
+            /*滚动条宽度*/
+        ::-webkit-scrollbar{width: 0px;
+                            height: 5px;}
+            /*滚动条按钮样式*/
+        ::-webkit-scrollbar-thumb{border-radius: 10px;
+                                  background-color: #f1f1f1;}
+            /*滚动条背景样式*/
+        ::-webkit-scrollbar-track{border-radius: 10px;}
+
+
+        body{background-color: white;
+            font-family: roboto, sans-serif;
+            font-style: normal;
+            width:80vw;
+            margin-left:10vw;
+        cursor:default;}
+            a:link{color: gray;
+                text-decoration:none;
+                cursor: crosshair;}
+            a:hover{color: black;
+                text-decoration:underline;
+                cursor: crosshair;}
+            a:visited{color: gray;
+                text-decoration:none;
+                cursor: crosshair;}
+            h1{text-align: left;
+                margin: 0 auto;
+                margin-top:-100px;
+                background-color:white;
+                color:gray;
+                z-index:400;
+                position:fixed;
+                padding-top: 0.5vh;
+                font-size: 15px;}
+
+                .wb1{position:fixed;
+                    width:20vw;
+                    height:60px;
+                    margin: 0 auto;
+                    z-index:300;
+                    margin-top:-120px;
+                    background-color:white;}
+
+                .wb2{position:fixed;
+                    width:25vw;
+                    height:194px;
+                    margin: 0 auto;
+                    z-index:75;
+                    margin-top:-50px;
+                    background-color:transparent;}
+
+                .bar1{margin-top:-24px;
+                    width:103px;
+                    height:3px;
+                    margin-left:20px;
+                    background-color:rgb(124, 35, 35);
+                    z-index:100;
+                    position:fixed;}
+
+               .button{position: fixed;
+                cursor: crosshair;
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            right: 8px;
+            top: -102px;
+            z-index: 500;}
+                .line1{background-color: rgb(124, 35, 35);
+            width: 24px;
+            height: 3px;
+            margin-top: 21px;
+            margin-left: 5px;
+            position: fixed;
+            z-index: 500;
+            transform: rotate(0deg);}
+            
+                .line2{background-color: rgb(124, 35, 35);
+            width: 24px;
+            height: 3px;
+            margin-top: 29px;
+            margin-left: 5px;
+            position: fixed;
+            z-index: 500;
+            transform: rotate(0deg);}
+
+
+                
+            .menu{width:20%;
+                position:fixed;
+                margin-top:-60px;
+                height:104px;
+                margin-left:0px;
+                font-size:14px;
+                z-index:100;
+                background-color:transparent;}
+
+            .contactinfo,.aboutinfo{display:none;
+                position:fixed;
+                margin-top:-44px;
+                margin-left:16vw;
+                font-size:14px;
+                padding-right:20px;
+                z-index:200;}
+
+            .aboutinfo1{
+                display:none;
+                position:fixed;
+                margin-top:-61px;
+                margin-left:38vw;
+                font-size:14px;
+                z-index:200;
+                padding-right:20px;
+                max-width:30vw;}
+            span{font-weight:600;
+                color:rgb(124, 35, 35);}
+
+            
+                .info2{
+                cursor: crosshair;
+                height: 458px;}
+
+
+
+            .image{width:60vw;
+            margin-left:25vw;
+            z-index:25;}
+            img{width:60vw;
+            margin-top:20px;}
+
+            
+
+            div{margin-top:120px;
+                margin-left:87px;
+            padding-right:20px;}
+
+                
+                .about{margin-top:-50px;
+                    z-index:100;
+                    cursor: crosshair;}
+                .contact{margin-top:50px;
+                    z-index:100;
+                    cursor: crosshair;}
+                .works{margin-top:50px;
+                    z-index:100;
+                    cursor: crosshair;}
+                .toggle{display:none;
+                    cursor: crosshair;
+                    height: 500px;
+                    z-index:50;}
+                .scroll{
+                    margin-top:50px;
+                    z-index:25;
+                position:fixed;}
+                .collectivecare{margin-top:0px;
+                    margin-left:0px;
+                    width:150px;
+                    font-size:14px;
+                    z-index:1000;
+                    cursor: crosshair;}
+                .interview,.GérardUféras,.knoll,.the24solarterms,.newphotography,.generateposters,.soundmotion,.tiquette,.theviciousofcity,.thewoodwhisperper,.drawings,.process{margin-top:10px;
+                    margin-left:0px;
+                    width:150px;
+                    font-size:14px;
+                    z-index:500;
+                    cursor: crosshair;}
+
+.aboutinfo2,.works1,.contact2,.works2{display:none;}
+
+
+            @media screen and (max-width:420px){
+                p{font-size:18px;}
+                h1{font-size:18px;
+                max-width:175px;}
+                .image{margin-left:10vw;
+                     min-width:300px;
+                     width:80vw;}
+                .contactinfo{
+                    margin-top: 82px;
+                    margin-left: -85px;}
+                .wb1{width:105vw;
+                    margin-left: -10vw;
+                    height: 93px;}
+                .wb2{margin-top: -24px;
+                    display:none;
+                    width:105vw;
+                    margin-left: -10vw;
+                    height: 90vh;
+                background-color:white;}
+                .bar1 {margin-top: -27px;
+                    width: 90vw;
+                    z-index:1000;
+                    margin-left: -0.5vw;}
+                .menu{margin-left: -85px;
+                    margin-top: -119px;
+                    font-size:18px;
+                    display:none;}
+                .about{margin-top: -57px;
+                    z-index: 800;}
+                .contact{margin-top: 27px;
+                    z-index: 800;}
+                .works{margin-top: 27px;}
+                .toggle{z-index:750;
+                    margin-top:24px;
+                    margin-left: 2px;}
+                img{width:90vw;}
+                .image{margin-left:0vw;}
+                .scroll{z-index: 750;
+                    margin-top: 100px;}
+                .aboutinfo2{display:none;
+                    position: fixed;
+                    z-index: 1000;
+                    margin-left: -86px;
+                    margin-top:-24px}
+                .collectivecare,.interview,.GérardUféras,.knoll,.the24solarterms,.newphotography,.generateposters,.soundmotion,.tiquette,.theviciousofcity,.thewoodwhisperper,.drawings,.process{margin-top:10px;
+                    font-size:18px;
+                    width:195px;}
+                .info3{
+                cursor: crosshair;
+                height: 458px;
+                margin-top: 53px;}
+                .contact2{margin-left: 85px;
+                    margin-top: 0px;
+                    cursor: crosshair;}
+                .works1{margin-left: 85px;
+                    margin-top: 0px;
+                    cursor: crosshair;}
+                .works2{margin-left: 2px;
+                    margin-top: 224px;
+                    cursor: crosshair;
+                    position: fixed;
+                    z-index: 2000;}
+                .contact1{background-color: white;
+                    margin-top: -8px;
+}}
+               
+
+                
+            }
+
+           
+        </style> 
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script language="javascript">
+            $(document).ready(function(){
+                
+                
+                $( ".about" ).hover(function() {
+                    $(".about").css('color','gray');
+                    $(".contact").css('color','black');
+                    $(".works").css('color','black');
+                }, function(){
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".works").css('color','black');
+                });
+
+                $( ".about" ).click(function() {
+                        $(".aboutinfo2").css("display","inline-block");  
+                        $(".contact2").css("display","inline-block"); 
+                        $(".works1").css("display","inline-block"); 
+                        $(".contact").css("display","none");  
+                        $(".works").css("display","none"); 
+                        $(".works2").css("display","none"); 
+                        $(".toggle").css("display","none");   
+                        $(".contactinfo").css('display','none');
+                    
+                });
+
+
+
+                $( ".contact" ).hover(function() {
+                    $(".about").css('color','black');
+                    $(".contact").css('color','gray');
+                    $(".works").css('color','black');
+                }, function(){
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".works").css('color','black');
+
+                });
+                $( ".contact" ).click(function() {
+                    $(".works").css("display","none"); 
+                    $(".works1").css("display","none"); 
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".contactinfo").css('display','inline-block');
+                    $(".works2").css('display','inline-block');
+                    $(".toggle").css("display","none");   
+                    $(".scroll").css("display","none");  
+                    
+                    
+                    
+                });
+
+                $( ".works1" ).hover(function() {
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".contact2").css('color','black');
+                    $(".works1").css('color','gray');
+                }, function(){
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".contact2").css('color','black');
+                    $(".works1").css('color','black');
+                });
+
+                $( ".works1" ).click(function() {
+                        $(".aboutinfo2").css("display","none");  
+                        $(".contactinfo").css('display','none');
+                        $(".contact2").css("display","none"); 
+                        $(".works1").css("display","none"); 
+                        $(".contact").css("display","inline-block");  
+                        $(".works").css("display","inline-block"); 
+                        $(".toggle").css("display","inline-block");
+                        $(".scroll").css("display","inline-block");    
+                    
+                });
+
+                $( ".works2" ).hover(function() {
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".works2").css('color','gray');
+                }, function(){
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".works2").css('color','black');
+                });
+
+                $( ".works2" ).click(function() {
+                        $(".aboutinfo2").css("display","none");  
+                        $(".contactinfo").css('display','none');
+                        $(".contact2").css("display","none"); 
+                        $(".works2").css("display","none"); 
+                        $(".contact").css("display","inline-block");  
+                        $(".works").css("display","inline-block"); 
+                        $(".toggle").css("display","inline-block");   
+                        $(".scroll").css("display","inline-block");   
+                    
+                });
+
+                $( ".contact2" ).hover(function() {
+                    $(".about").css('color','black');
+                    $(".contact2").css('color','gray');
+                    $(".works1").css('color','black');
+                    $(".works2").css('color','black');
+                }, function(){
+                    $(".about").css('color','black');
+                    $(".contact2").css('color','black');
+                    $(".works1").css('color','black');
+                    $(".works2").css('color','black');
+                });
+
+                $( ".contact2" ).click(function() {
+                        $(".aboutinfo2").css("display","none");  
+                        $(".contact2").css("display","none"); 
+                        $(".works1").css("display","none"); 
+                        $(".contact").css("display","inline-block");  
+                        $(".works2").css("display","inline-block"); 
+                        $(".toggle").css("display","none");  
+                        $(".contactinfo").css("display","inline-block");  
+                         
+                    
+                });
+
+
+
+
+                $( ".works" ).hover(function() {
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".works").css('color','gray');
+                }, function(){
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".works").css('color','black');
+                });
+
+                $( ".works" ).click(function() {
+                        $(".toggle").css("display","inline-block");  
+                        $(".about").css('color','black');
+                        $(".contact").css('color','black');
+                        $(".works").css('color','black'); 
+                    
+                });
+
+
+
+                $( ".button" ).hover(function() {
+                    $(".line1").css("background-color","gray");
+                    $(".line2").css("background-color","gray");
+                }, function(){
+                    $(".line1").css("background-color","rgb(124, 35, 35)");
+                    $(".line2").css("background-color","rgb(124, 35, 35)");
+                });
+var count=0;
+                $( ".button" ).click(function() {
+                    count=count+1;
+                    if (count%2 == 1){
+                    $(".line1").css("transform","rotate(30deg)");
+                    $(".line2").css("transform","rotate(-30deg)");
+                    $(".line1").css("margin-top","25px");
+                    $(".line2").css("margin-top","25px");
+                    $(".line1").css("background-color","rgb(124, 35, 35)");
+                    $(".line2").css("background-color","rgb(124, 35, 35)");
+                    $(".menu").css("display","inline-block");
+                    $(".about").css("display","inline-block");
+                    $(".contact").css("display","inline-block");
+                    $(".works").css("display","inline-block");
+                    $(".about").css('color','black');
+                    $(".contact").css('color','black');
+                    $(".works1").css('color','black');
+                    $(".wb2").css("display","inline-block");
+                    
+                }
+                else{
+                    $(".line1").css("transform","rotate(0deg)");
+                    $(".line2").css("transform","rotate(0deg)");
+                    $(".line1").css("margin-top","21px");
+                    $(".line2").css("margin-top","29px");
+                    $(".line1").css("background-color","rgb(124, 35, 35)");
+                    $(".line2").css("background-color","rgb(124, 35, 35)");
+                    $(".menu").css("display","none");
+                    $(".wb2").css("display","none");
+                    $(".toggle").css("display","none");
+                    $(".aboutinfo2").css("display","none");  
+                    $(".contact2").css("display","none"); 
+                    $(".works1").css("display","none"); 
+                    $(".works2").css("display","none"); 
+                    $(".contactinfo").css("display","none"); 
+                }
+                
+                
+                
+                });
+
+
+             
+            });
+
+
+
+
+
+        </script>
+
+    </head>
+
+    <body>
+        <h1>个人作品集©copyright 2022 </h1>
+        <div class="button">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+
+        <div class="bar1"></div>
+    <section class="wb1"></section>
+    <section class="wb2"></section>
+    
+
+    <section class="menu">
+        <div></div>
+        <div class="about"><b>ABOUT</b></div>
+        <div class="contact"><b>CONTACT</b></div>
+        <div class="works"><b>WORKS</b></div>
+    </section>
+
+
+    <section class="scroll">
+        <div class="toggle" style="overflow: scroll">
+            <div class="collectivecare"><a href="collectivecare.html">COLLECTIVE CARE</a></div>
+            <div class="interview"><a href="interview.html">THE OBSERVATION OF FORM & PATTERN</a></div>
+            <div class="GérardUféras"><a href="GérardUféras.html">GERARD UFERAS</a></div>
+            <div class="knoll"><a href="knoll.html">KNOLL</a></div>
+            <div class="the24solarterms"><a href="the24solarterms.html">THE 24 SOLAR TERMS</a></div>
+            <div class="newphotography"><a href="newphotography.html">NEW PHOTOGRAPHY</a></div>
+            <div class="generateposters"><a href="generateposters.html">GENERATE POSTERS</a></div>
+            <div class="soundmotion"><a href="soundmotion.html">SOUND MOTION</a></div>
+            <div class="tiquette"><a href="tiquette.html">TIQUETTE</a></div>
+            <div class="theviciousofcity"><a href="theviciousofcity.html">THE VICIOUS OF CITY</a></div>
+            <div class="thewoodwhisperper"><a href="thewoodwhisperper.html">THE WOODWHISPERER</a></div>
+            <div class="drawings"><a href="drawings.html">DRAWINGS</a></div>
+            <div class="process"><a href="process.html">PROCESS</a></div>
+            <div></div>
+        </div>
+    </section>
+    
+    
+
+    <section class="aboutinfo">
+        <div class="info1">
+            <h3>技能特长</h3>
+            <p><span>设计</span> | Print and digital design; 
+            <br> &emsp;&emsp;&ensp;&thinsp; Adobe InDesign, 
+            <br> &emsp;&emsp;&ensp;&thinsp; Illustrator, Photoshop;
+            <br> &emsp;&emsp;&ensp;&thinsp; After Effect, Premiere; 
+            <br> &emsp;&emsp;&ensp;&thinsp; Figma, Adobe XD;
+            <br> &emsp;&emsp;&ensp;&thinsp; Cinema 4 D;
+            <br> &emsp;&emsp;&ensp;&thinsp; HTML/CSS/Javascript
+            <p><span>语言</span> | English, Mandarin</p>
+        </div>
+    </section>
+
+
+    <section class="aboutinfo1">
+        <div class="info2" style="overflow: scroll">
+            <h3>教育背景</h3>
+            <p><span>罗德岛艺术设计学院 (RISD)</span>
+            <br> Providence, RI | Sept. 2018–
+            <br> 本科, 平面设计</p>
+            <p><span>布朗大学</span>
+            <br> Providence, RI | Sept. 2019–May. 2020 
+            <br> 人机交互/用户体验, 经济</p>
+
+            <h3>参与展出</h3>
+            <p><span>IB 艺术展 | 小组展示</span> | Mar. 2018 
+            <br> 人大附中国际部一层展厅</p>
+            <p><span>Coming To(o)|小组展示</span> | Dec. 2018 
+            <br> RISD Red Eye Gallery</p>
+
+
+            <h3>课程</h3>
+            <p><span>Design Studio I</span> | Step. 2018–Dec. 2018 
+            <br>这是我最初接触平面设计的课程，通过尝试不同的设计程序和设计风格，
+                我意识到设计本身并不局限于表现手法或者用户需求，更多的是对自我的探寻以及风格背后的含义。
+            </p>
+
+            <p><span>Typography III</span> | Step. 2020–Dec. 2020 
+            <br>我学会了设计字体并将字体本身当作设计元素来使用，以及使用
+                Figma以及AbobeXD来转换自己的设计至多媒体形态，比如网站元素和GIF动效。
+            </p>
+            
+
+            <p><span>Web Design</span> | Step. 2021–Dec. 2021
+            <br>在这门课程中，我学会了基本的编程代码以及如何将自己的设计转化为网站。
+                网站和其他设计最大的不同在于它对互动的需求，以及使用方式的定义。
+                而通过这节课我对设计本身有了更好地理解，那便是为谁服务，以及通过什么样的形态。
+                </p>
+
+
+
+        </div>    
+    </section>
+
+    <section class="aboutinfo2">
+        <div class="info3" style="overflow: scroll">
+            <h3>技能特长</h3>
+            <p><span>设计</span> | Print and digital design; 
+            <br> &emsp;&emsp;&ensp;&thinsp; Adobe InDesign, 
+            <br> &emsp;&emsp;&ensp;&thinsp; Illustrator, Photoshop;
+            <br> &emsp;&emsp;&ensp;&thinsp; After Effect, Premiere; 
+            <br> &emsp;&emsp;&ensp;&thinsp; Figma, Adobe XD;
+            <br> &emsp;&emsp;&ensp;&thinsp; Cinema 4 D;
+            <br> &emsp;&emsp;&ensp;&thinsp; HTML/CSS/Javascript
+            <p><span>语言</span> | English, Mandarin</p>
+
+            <h3>教育背景</h3>
+            <p><span>罗德岛艺术设计学院 (RISD)</span>
+            <br> Providence, RI | Sept. 2018–
+            <br> 本科, 平面设计</p>
+            <p><span>布朗大学</span>
+            <br> Providence, RI | Sept. 2019–May. 2020 
+            <br> 人机交互/用户体验, 经济</p>
+
+            <h3>参与展出</h3>
+            <p><span>IB 艺术展 | 小组展示</span> | Mar. 2018 
+            <br> 人大附中国际部一层展厅</p>
+            <p><span>Coming To(o)|小组展示</span> | Dec. 2018 
+            <br> RISD Red Eye Gallery</p>
+
+
+            <h3>课程</h3>
+            <p><span>Design Studio I</span> | Step. 2018–Dec. 2018 
+            <br>这是我最初接触平面设计的课程，通过尝试不同的设计程序和设计风格，
+                我意识到设计本身并不局限于表现手法或者用户需求，更多的是对自我的探寻以及风格背后的含义。
+            </p>
+
+            <p><span>Typography III</span> | Step. 2020–Dec. 2020 
+            <br>我学会了设计字体并将字体本身当作设计元素来使用，以及使用
+                Figma以及AbobeXD来转换自己的设计至多媒体形态，比如网站元素和GIF动效。
+            </p>
+            
+
+            <p><span>Web Design</span> | Step. 2021–Dec. 2021
+            <br>在这门课程中，我学会了基本的编程代码以及如何将自己的设计转化为网站。
+                网站和其他设计最大的不同在于它对互动的需求，以及使用方式的定义。
+                而通过这节课我对设计本身有了更好地理解，那便是为谁服务，以及通过什么样的形态。
+                </p>
+
+            </div>
+
+        <h3 class="contact2">CONTACT</h3>
+        <br>
+        <h3 class="works1">WORKS</h3>
+
+
+
+        
+    </section>
+
+
+
+
+
+    <section class="contactinfo">
+        <div class="contact1">
+        <p>邮箱：15901194779@163.com</p> 
+        <p>电话：+86 159-0119-4779</p>
+        <p>地址：Beijing, China</p>
+        </div>  
+    </section>
+
+    <h3 class="works2">WORKS</h3>
+
+    <section class="image">
+        <div></div>
+        <a href="collectivecare.html"><img src="image/A2.jpg"></a>
+        <a href="interview.html"><img src="image/interview.jpg"></a>
+        <a href="GérardUféras.html"><img src="image/GérardUféras.jpg"></a>
+        <a href="knoll.html"><img src="image/mockup.jpg"></a>
+        <a href="the24solarterms.html"><img src="image/the24solarterms.jpg"></a>
+        <a href="newphotography.html"><img src="image/blue.jpg"></a>
+        <a href="generateposters.html"><img src="image/blue.jpg"></a>
+        <a href="soundmotion.html"><img src="image/motion.jpg"></a>
+        <a href="tiquette.html"><img src="image/blue.jpg"></a>
+        <a href="theviciousofcity.html"><img src="image/city.jpg"></a>
+        <a href="thewoodwhisperper.html"><img src="image/wood.png"></a>
+        <a href="drawings.html"><img src="image/drawing01.jpg"></a>
+        <a href="process.html"><img src="image/Untitled presentation (4).jpg"></a>   
+    </section>
+
+    
+    
+
+    
+
+    </body>
+</html>
+
+<!--<a name="link"></a>
+    <a href="#"></a>内置超链接
+1180width
+264height-->
