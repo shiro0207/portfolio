@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>个人作品集©copyright 2022</title>   
+        <link rel="stylesheet" href="collectivecare.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+        
         <style>
             /*滚动条宽度*/
         ::-webkit-scrollbar{width: 0px;
@@ -150,12 +153,8 @@
 
             .image{margin-left:0vw;
                      min-width:300px;
-                     width:80vw;
+                     width:100vw;
                      z-index:25;}
-
-            img{width:90vw;
-                margin-top:20px;}
-
 
             
 
@@ -223,15 +222,22 @@
                 .contact1{background-color: white;
                     margin-top: -8px;}
                
-                .color{color: rgb(124, 35, 35);}
+                .color{color: rgb(124, 35, 35);
+                position:fixed;
+                margin-top:0px;}
+                .color1{color: rgb(124, 35, 35);
+                position:fixed;
+                margin-top:41px;}
                 .collectivecareintro{margin-left:0px;}
                 .intro_{margin-left:0px;
-                    margin-top:-21px;
+                    margin-top:20px;
                     width: 300px;
                     height:495px;}
 
+                .wb3{margin-top: -150px;}
 
-                    @media only screen and (max-width: 414px){
+
+        @media only screen and (max-width: 414px){
                 p{font-size:24px;}
                 h3{font-size:24px;}
                 h1{max-width: 224px;
@@ -263,6 +269,24 @@
                 .info3{height: 524px;
                     width: 300px;}
                 .wb2{height:95vh;}
+                .intro_{height:742px;}
+
+                .poster1,.poster2,.poster3{width:350px;
+                    margin-top:10px;}
+                .content1{display:none;}
+                .content1_2,.content2_2,.content3_2{display:inline-block;}
+                img.ticket{width:90vw;
+                    margin-top:10px;}
+                .content5,.content7,.content9{display:none;}
+                .content5_1,.content5_2,.content7_1,.content7_2{display:inline-block;}
+                .wb5{display:none;}
+                img.group1{display:none;}
+                img.group1_1{display:none;}
+                img.group1_2{display:none;}
+                img.group1_3{display:inline-block;}
+                .content10{display:inline-block;}
+                .wb6{display:inline-block;}
+                
                 }
 
                 @media only screen and (max-height: 736px){
@@ -462,14 +486,11 @@ var count=0;
                     $(".works1").css("display","none"); 
                     $(".works2").css("display","none"); 
                     $(".contactinfo").css("display","none"); 
-                }
-                
-                
-                
+                }    
                 });
 
 
-             
+
             });
 
 
@@ -593,27 +614,138 @@ var count=0;
 
     <h3 class="works2">WORKS</h3>
 
-     
-
-    <section class="image">
-        <div></div>
-       
-    </section>
 
     <div class="collectivecareintro">
         <h3 class="color">COLLECTIVE CARE</h3>
-        <p class="color">2020 | poster series°</p>
+        <p class="color1">2020 | poster series°</p>
         <div class="intro_" style="overflow: scroll">
-        <p>这是一个探究 2020 隔离时期的艺术展出方式的项目。当人们需要与他人产生距离时，他们与艺术品之间的关联又
+            
+        <p>
+            <br>
+            <br>
+            <br>
+            这是一个探究 2020 隔离时期的艺术展出方式的项目。当人们需要与他人产生距离时，他们与艺术品之间的关联又
             会产生什么样的变化，而艺术展又要如何打破常规，来重新定义展览的性质。我通过博物馆内部的物理结构来呈现
             出该展览的特性，这也是为什么我在这组设计中运用了许多线条来切分。它是由海报，导览卡，以及门票构成，
             同时设计了贴纸来增添该设计的可用性。</p>
+
+            
         </div>
         </div>  
+
+        <div class="wb3"></div>
     
+        <section class="image">
+            <img class="poster1" src="image/P.jpg">
+            <p class="content1_2">POSTER SERIES. NO 1</p>
+            <img class="poster2" src="image/P2.jpg">
+            <p class="content2_2">POSTER SERIES. NO 2</p>
+            <img class="poster3" src="image/P3.jpg">
+            <p class="content3_2">POSTER SERIES. NO 3</p>
+        <div class="content1">
+            <p class="content2">POSTER SERIES. NO 1</p>
+            <p class="content2">POSTER SERIES. NO 2</p>
+            <p class="content2">POSTER SERIES. NO 3</p>
+        </div>
+           <p class="content3">我通过选择每个房间的艺术品为主题，以及他们的结构为
+            辅助，从而构建出了 6 组不同的方形卡片。他们的正面是
+            该展览的标题，而背面则是对特定作品的介绍。我希望可
+            以通过这种方式来强调该展览的目的，也就是这些展出背
+            后的含义。在这个项目中我学会了如何用线条来分隔元素，
+            并重复几何图形的运用，以及对色彩的掌握。</p>
 
 
-    
+        <img class="ticket" src="image/ticket1_1.jpg">
+        <p class="content5_1">POSTER SERIES. NO 1. 正</p>
+        <img class="ticket" src="image/ticket1_2.jpg">
+        <p class="content5_2">POSTER SERIES. NO 1. 反</p>
+        <div class="content4">
+            <p class="content5">POSTER SERIES. NO 1. 正</p>
+            <p class="content5">POSTER SERIES. NO 1. 反</p>
+        </div>
+        <div class="wb5"></div>
+        <img class="ticket" src="image/ticket2_1.jpg">
+        <p class="content7_1">POSTER SERIES. NO 2. 正</p>
+        <img class="ticket" src="image/ticket2_2.jpg">
+        <p class="content7_2">POSTER SERIES. NO 2. 反</p>
+        <div class="content6">
+            <p class="content7">POSTER SERIES. NO 2. 正</p>
+            <p class="content7">POSTER SERIES. NO 2. 反</p>
+        </div>
+
+        <img class="group1" src="image/A.jpg">
+        <img class="group1_1" src="image/E.jpg">
+        <img class="group1_2" src="image/F.jpg">
+        <div class="content8">
+            <p class="content9">POSTCARDS. | NOTES. |  STICKERS. NO 1 </p>
+        </div>
+
+        <img class="group1" src="image/A2.jpg">
+        <img class="group1_1" src="image/E2.jpg">
+        <img class="group1_2" src="image/F2.jpg">
+        <div class="content8">
+            <p class="content9">POSTCARDS. | NOTES. |  STICKERS. NO 2 </p>
+        </div>
+
+        <img class="group1" src="image/A3.jpg">
+        <img class="group1_1" src="image/E3.jpg">
+        <img class="group1_2" src="image/F3.jpg">
+        <div class="content8">
+            <p class="content9">POSTCARDS. | NOTES. |  STICKERS. NO 3 </p>
+        </div>
+
+        <img class="group1" src="image/A4.jpg">
+        <img class="group1_1" src="image/E4.jpg">
+        <img class="group1_2" src="image/F4.jpg">
+        <div class="content8">
+            <p class="content9">POSTCARDS. | NOTES. |  STICKERS. NO 4 </p>
+        </div>
+
+        <img class="group1" src="image/A5.jpg">
+        <img class="group1_1" src="image/E5.jpg">
+        <img class="group1_2" src="image/F5.jpg">
+        <div class="content8">
+            <p class="content9">POSTCARDS. | NOTES. |  STICKERS. NO 5 </p>
+        </div>
+
+        <img class="group1" src="image/A6.jpg">
+        <img class="group1_1" src="image/E6.jpg">
+        <img class="group1_2" src="image/F6.jpg">
+        <div class="content8">
+            <p class="content9">POSTCARDS. | NOTES. |  STICKERS. NO 6</p>
+        </div>
+
+        <div class="wb6"></div>
+
+        <img class="group1_3" src="image/B2.jpg">
+        <p class="content10">POSTCARDS. NO 1. 正 </p>
+        <img class="group1_3" src="image/B.jpg">
+        <p class="content10">POSTCARDS. NO 1. 反 </p>
+        <img class="group1_3" src="image/B4.jpg">
+        <p class="content10">POSTCARDS. NO 2. 正 </p>
+        <img class="group1_3" src="image/B3.jpg">
+        <p class="content10">POSTCARDS. NO 2. 反 </p>
+        <img class="group1_3" src="image/B6.jpg">
+        <p class="content10">POSTCARDS. NO 3. 正 </p>
+        <img class="group1_3" src="image/B5.jpg">
+        <p class="content10">POSTCARDS. NO 3. 反 </p>
+        <img class="group1_3" src="image/B8.jpg">
+        <p class="content10">POSTCARDS. NO 4. 正 </p>
+        <img class="group1_3" src="image/B7.jpg">
+        <p class="content10">POSTCARDS. NO 4. 反 </p>
+        <img class="group1_3" src="image/B10.jpg">
+        <p class="content10">POSTCARDS. NO 5. 正 </p>
+        <img class="group1_3" src="image/B9.jpg">
+        <p class="content10">POSTCARDS. NO 5. 反 </p>
+        <img class="group1_3" src="image/B12.jpg">
+        <p class="content10">POSTCARDS. NO 6. 正 </p>
+        <img class="group1_3" src="image/B11.jpg">
+        <p class="content10">POSTCARDS. NO 6. 反 </p>
+        </section>
+        
+
+    <br>
+
 
     </body>
 </html>

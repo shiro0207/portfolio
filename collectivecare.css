@@ -1,0 +1,82 @@
+.poster1,.poster2,.poster3{width:30vw;
+    margin-top:20px;
+    padding:2px;}
+
+.content1{width:90vw;
+    display:flex;
+    margin-left: -1vw;
+    margin-top: -16px;}
+.content2{width:30vw; 
+    font-size:14px;
+    text-align: right;
+    color:gray;}
+.content3{width:54vw;
+    min-width:300px;}
+
+.content1_2,.content2_2,.content3_2{width: 358px;
+    margin-left: -1vw;
+    margin-top: -16px;
+    font-size:14px;
+    text-align: right;
+    color:gray;
+display:none;}
+
+.content5_1,.content5_2,.content7_1,.content7_2,.content10{width: 358px;
+    margin-left: -1vw;
+    margin-top: -16px;
+    font-size:14px;
+    text-align: right;
+    color:gray;
+display:none;}
+
+img.ticket{width:45vw;
+        margin-top:20px;
+        padding:2px;}
+
+.content4{width:90vw;
+    display:flex;
+    margin-left: -1vw;
+    margin-top: -16px;}
+.content5{width:45vw; 
+    font-size:14px;
+    text-align: right;
+    color:gray;}
+
+.content6{width:90vw;
+    display:flex;
+    margin-left: -1vw;
+    margin-top: -16px;}
+.content7{width:45vw; 
+    font-size:14px;
+    text-align: right;
+    color:gray;}
+
+    .wb5{margin-top:-25px;}
+
+    img.group1{width:43.6vw;
+        margin-top:20px;
+        padding:2px;}
+    img.group1_1{width:32.7vw;
+        margin-top:20px;
+        padding:2px;}
+    img.group1_2{width:10.9vw;
+        margin-top:20px;
+        padding:2px;}
+
+    .content8{width:90vw;
+            margin-left: -1vw;
+            margin-top: -16px;}
+    .content9{
+            font-size:14px;
+            text-align: right;
+            color:gray;}
+
+    .content10{}
+    img.group1_3{width:90vw;
+        margin-top:10px;
+        padding:2px;
+    display:none;}
+    .wb6{display:none;
+        margin-top: 40px;}
+
+
