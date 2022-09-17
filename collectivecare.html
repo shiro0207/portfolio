@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8"><!--charset: character encoding capable of encoding all characters on the web  -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>个人作品集©copyright 2022</title>   
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <style>
@@ -143,7 +144,9 @@
             .info3{
                 cursor: crosshair;
                 height: 458px;
-                margin-top: 53px;}
+                margin-top: 53px;
+                width: 30vw;
+                min-width: 300px;}
 
             .image{margin-left:0vw;
                      min-width:300px;
@@ -228,7 +231,7 @@
                     height:495px;}
 
 
-            @media only screen and (max-width: 414px){
+                    @media only screen and (max-width: 414px){
                 p{font-size:24px;}
                 h3{font-size:24px;}
                 h1{max-width: 224px;
@@ -242,6 +245,7 @@
                 .about{font-size:24px;}
                 .about1{font-size:24px;}
                 .contact{font-size:24px;}
+                .contact1{line-height: 18px;}
                 .contact2{font-size:24px;}
                 .works{font-size:24px;}
                 .works1{font-size:24px;}
@@ -255,8 +259,17 @@
                 .contactinfo{margin-top: 90px;
                     line-height: 18px;
                     min-width: 460px;}
-                    .toggle{margin-top:46px;}
+                .toggle{margin-top:46px;}
+                .info3{height: 524px;
+                    width: 300px;}
+                .wb2{height:95vh;}
                 }
+
+                @media only screen and (max-height: 736px){
+                    .info3{height: 458px;
+                        width: 300px;}
+                }
+
 
            
         </style> 
