@@ -32,14 +32,23 @@
             a:link{color: gray;
                 text-decoration:none;
                 cursor: crosshair;}
-            a:hover{color: black;
+            a:visited{color: gray;
                 text-decoration:none;
                 cursor: crosshair;}
-            a:visited{color: gray;
+            a:hover{color: black;
                 text-decoration:none;
                 cursor: crosshair;}
             a.home:hover {text-decoration:none;
                 cursor: crosshair;}
+
+            a._left1:link{color: rgb(124, 35, 35);}
+            a._left1:visited{color:rgb(124, 35, 35);}
+            a._left1:hover{color:black;}
+
+            a._right1:link{color: rgb(124, 35, 35);}
+            a._right1:visited{color:rgb(124, 35, 35);}
+            a._right1:hover{color:black;}
+
 
             h1{text-align: left;
                 margin: 0 auto;
@@ -289,8 +298,12 @@
                 img.group1_3{display:inline-block;}
                 .content10{display:inline-block;}
                 .wb6{display:inline-block;}
+                .right1{width:155px;
+                    margin-right: 20px;}
                 .left1{width:155px;
-                    margin-left: 48vw;}
+                    margin-left: 20px;
+                    margin-right: -5vw;}
+                p.intro_int{margin-top:-5px;}
                 
                 }
 
@@ -625,7 +638,8 @@ var count=0;
         <p class="color1">2020 | poster series°</p>
         <div class="intro_" style="overflow: scroll">
             
-        <p>
+        <p class="intro_int">
+            <br>
             <br>
             <br>
             这是一个探究 2020 隔离时期的艺术展出方式的项目。当人们需要与他人产生距离时，他们与艺术品之间的关联又
@@ -748,10 +762,10 @@ var count=0;
         </section>
         
 
-    <br>
-    <p class="left1"><a href="interview.html">>>THE OBSERVATION OF FORM & PATTERN</a></p>
-
-
+        <section class="footnote">
+            <p class="right1"><a href="index.html" class="_right1"></a></p>
+            <p class="left1"><a href="interview.html" class="_left1">>>THE OBSERVATION OF FORM & PATTERN</a></p>
+        </section>
     </body>
 </html>
 

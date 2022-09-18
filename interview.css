@@ -10,8 +10,7 @@
     font-size:14px;
     text-align: right;
     color:gray;}
-.content3{width:54vw;
-    min-width:300px;}
+
 
 .content1_2,.content2_2,.content3_2{width: 358px;
     margin-left: -1vw;
@@ -94,6 +93,3 @@ img.ticket{width:45vw;
             margin-right: -9vw;}
 
 .footnote{ display:flex;}
-
-
-
