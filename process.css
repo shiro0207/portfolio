@@ -1,0 +1,32 @@
+video::-webkit-media-controls-enclosure{
+    display:none;
+}
+.image01{width:90vw;
+    padding:2px;}
+    
+.image02{width:10vw;
+    padding:2px;}
+.content2{width:30vw; 
+    font-size:14px;
+    text-align: right;
+    color:gray;}
+
+
+
+
+
+        .right1{display: inline-block;
+            width: 70vw;
+            font-size: 14px;
+            text-align: left;
+            font-weight:600;
+            color: rgb(124, 35, 35);}
+        .left1{display: inline-block;
+            width: 45vw;
+            font-size: 14px;
+            text-align: right;
+            font-weight:600;
+            color: rgb(124, 35, 35);
+            margin-right: -9vw;}
+
+.footnote{ display:flex;}
