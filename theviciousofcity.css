@@ -1,33 +1,16 @@
+
 video::-webkit-media-controls-enclosure{
     display:none;
 }
-.image01,.image07{width:90vw;
-    padding:2px;}
 
-.image1{width:90vw;}
-    
-.image02,.image05{width:20vw;
-    padding:2px;}
-
-.image03{width:28vw;
-    padding:2px;}
-
-.image04{width:13vw;
-        padding:2px;}
-
-.image06{display:none;
-    width:170px;}
-
-    p.title{color:gray;
-        margin-top:-10px;
-    font-size:12px;}
 .content2{width:30vw; 
     font-size:14px;
     text-align: right;
     color:gray;}
-
-
-
+    .video1{width:90vw;}
+    
+    .image01{width:90vw;
+        padding:2px;}
 
 
         .right1{display: inline-block;
