@@ -9,6 +9,10 @@
     .poster2{width:45vw;
             padding:2px;}
 
+.poster3{width:45vw;
+                padding:2px;
+            display:none;}
+
 
 .content1{
     font-size:14px;
