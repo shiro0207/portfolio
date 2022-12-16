@@ -1,0 +1,52 @@
+video::-webkit-media-controls-enclosure{
+    display:none;
+}
+
+.image01,.image07{width:90vw;
+    padding:2px;}
+
+.image08{width:43vw;
+        padding:2px;}
+    
+
+.image1{width:90vw;}
+    
+.image02,.image05{width:20vw;
+    padding:2px;}
+
+.image03{width:28vw;
+    padding:2px;}
+
+.image04{width:13vw;
+        padding:2px;}
+
+.image06{display:none;
+    width:170px;}
+
+    p.title{color:gray;
+        margin-top:-10px;
+    font-size:12px;}
+.content2{width:30vw; 
+    font-size:14px;
+    text-align: right;
+    color:gray;}
+
+
+
+
+
+        .right1{display: inline-block;
+            width: 70vw;
+            font-size: 14px;
+            text-align: left;
+            font-weight:600;
+            color: rgb(124, 35, 35);}
+        .left1{display: inline-block;
+            width: 45vw;
+            font-size: 14px;
+            text-align: right;
+            font-weight:600;
+            color: rgb(124, 35, 35);
+            margin-right: -9vw;}
+
+.footnote{ display:flex;}
